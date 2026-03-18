@@ -1,0 +1,29 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebToolsCAE/project-1231512.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/WebToolsCAE/project-1231512/issues"
+  },
+  "homepage": "https://github.com/WebToolsCAE/project-1231512#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^9.26.1",
+    "@wdio/mocha-framework": "^9.26.1",
+    "@wdio/spec-reporter": "^9.26.1",
+    "webdriverio": "^9.26.1",
+    "winston": "^3.19.0"
+  }
+}
